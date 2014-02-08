@@ -39,6 +39,7 @@
 		B3B8D32A4E2997FB23969890 /* JFDownloadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JFDownloadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3B8D4804B50FD2056F45C7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B3B8D4B7466A9929D0497EDD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B3B8D5757E7902543ED218BA /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		B3B8D79FF5CDE07C9DF47434 /* JFDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFDownload.h; sourceTree = "<group>"; };
 		B3B8D7C4C5A1679167027549 /* JFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFAppDelegate.m; sourceTree = "<group>"; };
 		B3B8D8BEB461F65C24F1B0EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -103,6 +104,7 @@
 				B3B8D6384759B85BB3681B9A /* Frameworks */,
 				B3B8DE6025CEEEBBA3925D2A /* JFDownload */,
 				B3B8DD070CCFEA2B8FEECBD3 /* JFDownloadTests */,
+				B3B8D5757E7902543ED218BA /* LICENSE.txt */,
 			);
 			sourceTree = "<group>";
 		};
