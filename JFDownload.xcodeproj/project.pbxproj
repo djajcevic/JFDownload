@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3B8D1517AF27A5F06C74C9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3B8D62981762FC2C3FF4B11 /* InfoPlist.strings */; };
+		B3B8D20D5AB84364CF345336 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B8D8BEB461F65C24F1B0EE /* main.m */; };
+		B3B8D2C828FAF4A3CB13F3BF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B8D248FE1B8250D14E8A99 /* XCTest.framework */; };
+		B3B8D48CA2320322C303A1B3 /* JFDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B8DA56BE488ACBA3BB88D9 /* JFDownload.m */; };
+		B3B8D573005DBE7BD818CF65 /* JFDownloadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B8DB2ECC2AD1425B3FC5AF /* JFDownloadTests.m */; };
+		B3B8D5770EA6084520CA4F45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B8DA9E68B38D7628D76300 /* Foundation.framework */; };
+		B3B8D7BE116158CFE384AF28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B8DA269232D41369FFF54D /* UIKit.framework */; };
+		B3B8D981266D4C814A0DA172 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B8D4B7466A9929D0497EDD /* CoreGraphics.framework */; };
+		B3B8D9FD705632D73D0C4499 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B8DA269232D41369FFF54D /* UIKit.framework */; };
+		B3B8DC7623993BD3F2854858 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3B8D8C65FED7933331FCC70 /* InfoPlist.strings */; };
+		B3B8DE1EC288DC5FB31D0484 /* JFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B8D7C4C5A1679167027549 /* JFAppDelegate.m */; };
+		B3B8DECFE09A76529866679E /* JFDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B8DA56BE488ACBA3BB88D9 /* JFDownload.m */; };
+		B3B8DEE8BD42F02A050C48EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B8DA9E68B38D7628D76300 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3B8D6FAA0B5A314DCF488DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3B8D5AD59071BB3696D3B2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3B8D0BA13E3F576C6F0F2BE;
+			remoteInfo = JFDownload;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3B8D09C09182AD54703AEF2 /* JFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFAppDelegate.h; sourceTree = "<group>"; };
+		B3B8D248FE1B8250D14E8A99 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B3B8D2ADB18B72A6FDE4BC59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3B8D32A4E2997FB23969890 /* JFDownloadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JFDownloadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B8D4804B50FD2056F45C7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3B8D4B7466A9929D0497EDD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B3B8D79FF5CDE07C9DF47434 /* JFDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFDownload.h; sourceTree = "<group>"; };
+		B3B8D7C4C5A1679167027549 /* JFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFAppDelegate.m; sourceTree = "<group>"; };
+		B3B8D8BEB461F65C24F1B0EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3B8D99938F44C7B280BDF66 /* JFDownload-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JFDownload-Prefix.pch"; sourceTree = "<group>"; };
+		B3B8DA14741655EADB29F60D /* JFDownload-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "JFDownload-Info.plist"; sourceTree = "<group>"; };
+		B3B8DA269232D41369FFF54D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B3B8DA2A8A6BE18CB5BA66BC /* JFDownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JFDownload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B8DA35B89CC165614313D7 /* JFDownloadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "JFDownloadTests-Info.plist"; sourceTree = "<group>"; };
+		B3B8DA56BE488ACBA3BB88D9 /* JFDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFDownload.m; sourceTree = "<group>"; };
+		B3B8DA9E68B38D7628D76300 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3B8DB2ECC2AD1425B3FC5AF /* JFDownloadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFDownloadTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3B8D03179860AB4363C3042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B8D2C828FAF4A3CB13F3BF /* XCTest.framework in Frameworks */,
+				B3B8D5770EA6084520CA4F45 /* Foundation.framework in Frameworks */,
+				B3B8D9FD705632D73D0C4499 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B8D9450449FD5834116908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B8DEE8BD42F02A050C48EA /* Foundation.framework in Frameworks */,
+				B3B8D981266D4C814A0DA172 /* CoreGraphics.framework in Frameworks */,
+				B3B8D7BE116158CFE384AF28 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3B8D34BE627E5CFB45779E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3B8DA35B89CC165614313D7 /* JFDownloadTests-Info.plist */,
+				B3B8D62981762FC2C3FF4B11 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3B8D6384759B85BB3681B9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3B8DA9E68B38D7628D76300 /* Foundation.framework */,
+				B3B8D4B7466A9929D0497EDD /* CoreGraphics.framework */,
+				B3B8DA269232D41369FFF54D /* UIKit.framework */,
+				B3B8D248FE1B8250D14E8A99 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3B8D98ADBEE1A66292EEC19 = {
+			isa = PBXGroup;
+			children = (
+				B3B8D9BE7934077CF20AE70B /* Products */,
+				B3B8D6384759B85BB3681B9A /* Frameworks */,
+				B3B8DE6025CEEEBBA3925D2A /* JFDownload */,
+				B3B8DD070CCFEA2B8FEECBD3 /* JFDownloadTests */,
+			);
+			sourceTree = "<group>";
+		};
+		B3B8D9B514BE853C4C9C264D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B3B8D79FF5CDE07C9DF47434 /* JFDownload.h */,
+				B3B8DA56BE488ACBA3BB88D9 /* JFDownload.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B3B8D9BE7934077CF20AE70B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3B8DA2A8A6BE18CB5BA66BC /* JFDownload.app */,
+				B3B8D32A4E2997FB23969890 /* JFDownloadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3B8DD070CCFEA2B8FEECBD3 /* JFDownloadTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3B8D34BE627E5CFB45779E5 /* Supporting Files */,
+				B3B8DB2ECC2AD1425B3FC5AF /* JFDownloadTests.m */,
+			);
+			path = JFDownloadTests;
+			sourceTree = "<group>";
+		};
+		B3B8DE6025CEEEBBA3925D2A /* JFDownload */ = {
+			isa = PBXGroup;
+			children = (
+				B3B8DF908D6661D02563CCD9 /* Supporting Files */,
+				B3B8D09C09182AD54703AEF2 /* JFAppDelegate.h */,
+				B3B8D7C4C5A1679167027549 /* JFAppDelegate.m */,
+				B3B8D9B514BE853C4C9C264D /* Classes */,
+			);
+			path = JFDownload;
+			sourceTree = "<group>";
+		};
+		B3B8DF908D6661D02563CCD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3B8DA14741655EADB29F60D /* JFDownload-Info.plist */,
+				B3B8D8C65FED7933331FCC70 /* InfoPlist.strings */,
+				B3B8D8BEB461F65C24F1B0EE /* main.m */,
+				B3B8D99938F44C7B280BDF66 /* JFDownload-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3B8D0BA13E3F576C6F0F2BE /* JFDownload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3B8D08DB60E87115FF026EB /* Build configuration list for PBXNativeTarget "JFDownload" */;
+			buildPhases = (
+				B3B8DB03F5A615AA732318DA /* Sources */,
+				B3B8D9450449FD5834116908 /* Frameworks */,
+				B3B8D5934D17C2ED3CDB01BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JFDownload;
+			productName = JFDownload;
+			productReference = B3B8DA2A8A6BE18CB5BA66BC /* JFDownload.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3B8DBC9531D2DD830167045 /* JFDownloadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3B8D8FA7D62FE76B95E68FB /* Build configuration list for PBXNativeTarget "JFDownloadTests" */;
+			buildPhases = (
+				B3B8DADF5C89AF1654FDFBE3 /* Sources */,
+				B3B8D03179860AB4363C3042 /* Frameworks */,
+				B3B8DA7D732EB11FF6D7CAC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3B8DC126CCC3D7271A66D78 /* PBXTargetDependency */,
+			);
+			name = JFDownloadTests;
+			productName = JFDownloadTests;
+			productReference = B3B8D32A4E2997FB23969890 /* JFDownloadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3B8D5AD59071BB3696D3B2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = JF;
+			};
+			buildConfigurationList = B3B8D74AE775057C5669B517 /* Build configuration list for PBXProject "JFDownload" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3B8D98ADBEE1A66292EEC19;
+			productRefGroup = B3B8D9BE7934077CF20AE70B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3B8D0BA13E3F576C6F0F2BE /* JFDownload */,
+				B3B8DBC9531D2DD830167045 /* JFDownloadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3B8D5934D17C2ED3CDB01BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B8DC7623993BD3F2854858 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B8DA7D732EB11FF6D7CAC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B8D1517AF27A5F06C74C9A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3B8DADF5C89AF1654FDFBE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B8D573005DBE7BD818CF65 /* JFDownloadTests.m in Sources */,
+				B3B8D48CA2320322C303A1B3 /* JFDownload.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B8DB03F5A615AA732318DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B8D20D5AB84364CF345336 /* main.m in Sources */,
+				B3B8DE1EC288DC5FB31D0484 /* JFAppDelegate.m in Sources */,
+				B3B8DECFE09A76529866679E /* JFDownload.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3B8DC126CCC3D7271A66D78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3B8D0BA13E3F576C6F0F2BE /* JFDownload */;
+			targetProxy = B3B8D6FAA0B5A314DCF488DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3B8D62981762FC2C3FF4B11 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3B8D4804B50FD2056F45C7D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B3B8D8C65FED7933331FCC70 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3B8D2ADB18B72A6FDE4BC59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3B8D2D216462BC097C29997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JFDownload/JFDownload-Prefix.pch";
+				INFOPLIST_FILE = "JFDownloadTests/JFDownloadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		B3B8D6B75B7F192B49753952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JFDownload/JFDownload-Prefix.pch";
+				INFOPLIST_FILE = "JFDownloadTests/JFDownloadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B3B8D6CF51AB755DA8CE768A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JFDownload/JFDownload-Prefix.pch";
+				INFOPLIST_FILE = "JFDownload/JFDownload-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B3B8D89D6D95C5B93D69DB02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B3B8D8C5C53A30DDBF75CEB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JFDownload/JFDownload-Prefix.pch";
+				INFOPLIST_FILE = "JFDownload/JFDownload-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B3B8DD1CECE8B883F53290A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3B8D08DB60E87115FF026EB /* Build configuration list for PBXNativeTarget "JFDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3B8D6CF51AB755DA8CE768A /* Release */,
+				B3B8D8C5C53A30DDBF75CEB1 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3B8D74AE775057C5669B517 /* Build configuration list for PBXProject "JFDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3B8DD1CECE8B883F53290A2 /* Release */,
+				B3B8D89D6D95C5B93D69DB02 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3B8D8FA7D62FE76B95E68FB /* Build configuration list for PBXNativeTarget "JFDownloadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3B8D2D216462BC097C29997 /* Release */,
+				B3B8D6B75B7F192B49753952 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3B8D5AD59071BB3696D3B2F /* Project object */;
+}
