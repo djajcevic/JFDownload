@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/jfwork"
 
-  s.license      = { :type => 'MIT', :file => 'JFDownload/LICENSE.txt' }
+  s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
 
   s.author             = { "djajcevic" => "denis.jajcevic@gmail.com" }
   s.social_media_url = "hr.linkedin.com/pub/denis-jajčević/52/a4a/a11/"

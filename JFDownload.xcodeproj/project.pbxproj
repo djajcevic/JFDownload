@@ -10,6 +10,7 @@
 		B3B8D1517AF27A5F06C74C9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3B8D62981762FC2C3FF4B11 /* InfoPlist.strings */; };
 		B3B8D20D5AB84364CF345336 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B8D8BEB461F65C24F1B0EE /* main.m */; };
 		B3B8D2C828FAF4A3CB13F3BF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B8D248FE1B8250D14E8A99 /* XCTest.framework */; };
+		B3B8D4753B3F86EE7DCCFDA1 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = B3B8D51F906E53075EE3C73E /* LICENSE.txt */; };
 		B3B8D48CA2320322C303A1B3 /* JFDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B8DA56BE488ACBA3BB88D9 /* JFDownload.m */; };
 		B3B8D573005DBE7BD818CF65 /* JFDownloadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B8DB2ECC2AD1425B3FC5AF /* JFDownloadTests.m */; };
 		B3B8D5770EA6084520CA4F45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B8DA9E68B38D7628D76300 /* Foundation.framework */; };
@@ -39,7 +40,7 @@
 		B3B8D32A4E2997FB23969890 /* JFDownloadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JFDownloadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3B8D4804B50FD2056F45C7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B3B8D4B7466A9929D0497EDD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B3B8D5757E7902543ED218BA /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		B3B8D51F906E53075EE3C73E /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		B3B8D79FF5CDE07C9DF47434 /* JFDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFDownload.h; sourceTree = "<group>"; };
 		B3B8D7C4C5A1679167027549 /* JFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFAppDelegate.m; sourceTree = "<group>"; };
 		B3B8D8BEB461F65C24F1B0EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -104,7 +105,7 @@
 				B3B8D6384759B85BB3681B9A /* Frameworks */,
 				B3B8DE6025CEEEBBA3925D2A /* JFDownload */,
 				B3B8DD070CCFEA2B8FEECBD3 /* JFDownloadTests */,
-				B3B8D5757E7902543ED218BA /* LICENSE.txt */,
+				B3B8D51F906E53075EE3C73E /* LICENSE.txt */,
 			);
 			sourceTree = "<group>";
 		};
@@ -227,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3B8DC7623993BD3F2854858 /* InfoPlist.strings in Resources */,
+				B3B8D4753B3F86EE7DCCFDA1 /* LICENSE.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
