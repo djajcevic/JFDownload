@@ -60,7 +60,7 @@ Pod::Spec.new do |s|
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source       = { :git => "https://github.com/jfwork/JFDownload", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/jfwork/JFDownload", :tag => "v0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
