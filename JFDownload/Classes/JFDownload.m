@@ -200,10 +200,10 @@ typedef enum
     self.p_response = response;
     NSInteger statusCode = self.httpResponse.statusCode;
     if (statusCode == 500 || statusCode == 404 || statusCode == 405 || statusCode == 403) {
-        NSString *descriptionKey = [NSString stringWithFormat:@"%@.errorCode.%ld", kJFDownloadDomain, statusCode];
-        NSString *description;
+        NSString *descriptionKey = [NSString stringWithFormat:@"%@.errorCode.%ld", kJFDownloadDomain, (long) statusCode];
+        NSString *description = nil;
         if ([description respondsToSelector:@selector(localized)]) {
-            description = [descriptionKey localized];
+            description = NSLocalizedString(descriptionKey, descriptionKey);
         }
         else {
             description = NSLocalizedString(descriptionKey, @"");

@@ -16,9 +16,10 @@
 		B3B8D573005DBE7BD818CF65 /* JFDownloadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B8DB2ECC2AD1425B3FC5AF /* JFDownloadTests.m */; };
 		B3B8D5770EA6084520CA4F45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B8DA9E68B38D7628D76300 /* Foundation.framework */; };
 		B3B8D7BE116158CFE384AF28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B8DA269232D41369FFF54D /* UIKit.framework */; };
-		B3B8D981266D4C814A0DA172 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B8D4B7466A9929D0497EDD /* CoreGraphics.framework */; };
+		B3B8D9B2AE00E78D4F9EBFB4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B8DABE6037717C52027F0A /* CFNetwork.framework */; };
 		B3B8D9F159FB346D347C0796 /* NSMutableURLRequest+JFDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B8D95F81B0449832C14124 /* NSMutableURLRequest+JFDownload.m */; };
 		B3B8D9FD705632D73D0C4499 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B8DA269232D41369FFF54D /* UIKit.framework */; };
+		B3B8DB2785F6614141510CFD /* JFUtilNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B8D47495AFAD72B494CE6E /* JFUtilNetwork.m */; };
 		B3B8DB2BF77E2D4E05414AB0 /* NSString+JFDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B8DE7707FEF7A555CBA596 /* NSString+JFDownload.m */; };
 		B3B8DC2C4F1BD68D55FC4A54 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B3B8DE9FE934086A7A6D7CF3 /* README.md */; };
 		B3B8DC7623993BD3F2854858 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3B8D8C65FED7933331FCC70 /* InfoPlist.strings */; };
@@ -44,8 +45,9 @@
 		B3B8D2CC3D50CBB0F7C0AEF4 /* NSMutableURLRequest+JFDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+JFDownload.h"; sourceTree = "<group>"; };
 		B3B8D32A4E2997FB23969890 /* JFDownloadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JFDownloadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3B8D32A9C93F077B1D2D363 /* NSString+JFDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JFDownload.h"; sourceTree = "<group>"; };
+		B3B8D3EC0E10299B376B665F /* JFUtilNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFUtilNetwork.h; sourceTree = "<group>"; };
+		B3B8D47495AFAD72B494CE6E /* JFUtilNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFUtilNetwork.m; sourceTree = "<group>"; };
 		B3B8D4804B50FD2056F45C7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B3B8D4B7466A9929D0497EDD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B3B8D51F906E53075EE3C73E /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		B3B8D79FF5CDE07C9DF47434 /* JFDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFDownload.h; sourceTree = "<group>"; };
 		B3B8D7C4C5A1679167027549 /* JFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFAppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		B3B8DA35B89CC165614313D7 /* JFDownloadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "JFDownloadTests-Info.plist"; sourceTree = "<group>"; };
 		B3B8DA56BE488ACBA3BB88D9 /* JFDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFDownload.m; sourceTree = "<group>"; };
 		B3B8DA9E68B38D7628D76300 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3B8DABE6037717C52027F0A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		B3B8DB2ECC2AD1425B3FC5AF /* JFDownloadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFDownloadTests.m; sourceTree = "<group>"; };
 		B3B8DE7707FEF7A555CBA596 /* NSString+JFDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JFDownload.m"; sourceTree = "<group>"; };
 		B3B8DE9FE934086A7A6D7CF3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = README.md; sourceTree = "<group>"; };
@@ -79,8 +82,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3B8DEE8BD42F02A050C48EA /* Foundation.framework in Frameworks */,
-				B3B8D981266D4C814A0DA172 /* CoreGraphics.framework in Frameworks */,
 				B3B8D7BE116158CFE384AF28 /* UIKit.framework in Frameworks */,
+				B3B8D9B2AE00E78D4F9EBFB4 /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,9 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				B3B8DA9E68B38D7628D76300 /* Foundation.framework */,
-				B3B8D4B7466A9929D0497EDD /* CoreGraphics.framework */,
 				B3B8DA269232D41369FFF54D /* UIKit.framework */,
 				B3B8D248FE1B8250D14E8A99 /* XCTest.framework */,
+				B3B8DABE6037717C52027F0A /* CFNetwork.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -128,6 +131,8 @@
 				B3B8D2CC3D50CBB0F7C0AEF4 /* NSMutableURLRequest+JFDownload.h */,
 				B3B8D32A9C93F077B1D2D363 /* NSString+JFDownload.h */,
 				B3B8DE7707FEF7A555CBA596 /* NSString+JFDownload.m */,
+				B3B8D47495AFAD72B494CE6E /* JFUtilNetwork.m */,
+				B3B8D3EC0E10299B376B665F /* JFUtilNetwork.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 				B3B8DECFE09A76529866679E /* JFDownload.m in Sources */,
 				B3B8D9F159FB346D347C0796 /* NSMutableURLRequest+JFDownload.m in Sources */,
 				B3B8DB2BF77E2D4E05414AB0 /* NSString+JFDownload.m in Sources */,
+				B3B8DB2785F6614141510CFD /* JFUtilNetwork.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
