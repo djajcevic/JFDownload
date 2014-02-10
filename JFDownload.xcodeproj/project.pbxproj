@@ -17,7 +17,9 @@
 		B3B8D5770EA6084520CA4F45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B8DA9E68B38D7628D76300 /* Foundation.framework */; };
 		B3B8D7BE116158CFE384AF28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B8DA269232D41369FFF54D /* UIKit.framework */; };
 		B3B8D981266D4C814A0DA172 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B8D4B7466A9929D0497EDD /* CoreGraphics.framework */; };
+		B3B8D9F159FB346D347C0796 /* NSMutableURLRequest+JFDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B8D95F81B0449832C14124 /* NSMutableURLRequest+JFDownload.m */; };
 		B3B8D9FD705632D73D0C4499 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B8DA269232D41369FFF54D /* UIKit.framework */; };
+		B3B8DB2BF77E2D4E05414AB0 /* NSString+JFDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B8DE7707FEF7A555CBA596 /* NSString+JFDownload.m */; };
 		B3B8DC2C4F1BD68D55FC4A54 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B3B8DE9FE934086A7A6D7CF3 /* README.md */; };
 		B3B8DC7623993BD3F2854858 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3B8D8C65FED7933331FCC70 /* InfoPlist.strings */; };
 		B3B8DE1EC288DC5FB31D0484 /* JFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B8D7C4C5A1679167027549 /* JFAppDelegate.m */; };
@@ -39,13 +41,16 @@
 		B3B8D09C09182AD54703AEF2 /* JFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFAppDelegate.h; sourceTree = "<group>"; };
 		B3B8D248FE1B8250D14E8A99 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B3B8D2ADB18B72A6FDE4BC59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3B8D2CC3D50CBB0F7C0AEF4 /* NSMutableURLRequest+JFDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+JFDownload.h"; sourceTree = "<group>"; };
 		B3B8D32A4E2997FB23969890 /* JFDownloadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JFDownloadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B8D32A9C93F077B1D2D363 /* NSString+JFDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JFDownload.h"; sourceTree = "<group>"; };
 		B3B8D4804B50FD2056F45C7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B3B8D4B7466A9929D0497EDD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B3B8D51F906E53075EE3C73E /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		B3B8D79FF5CDE07C9DF47434 /* JFDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFDownload.h; sourceTree = "<group>"; };
 		B3B8D7C4C5A1679167027549 /* JFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFAppDelegate.m; sourceTree = "<group>"; };
 		B3B8D8BEB461F65C24F1B0EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3B8D95F81B0449832C14124 /* NSMutableURLRequest+JFDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+JFDownload.m"; sourceTree = "<group>"; };
 		B3B8D99938F44C7B280BDF66 /* JFDownload-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JFDownload-Prefix.pch"; sourceTree = "<group>"; };
 		B3B8DA14741655EADB29F60D /* JFDownload-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "JFDownload-Info.plist"; sourceTree = "<group>"; };
 		B3B8DA269232D41369FFF54D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -54,6 +59,7 @@
 		B3B8DA56BE488ACBA3BB88D9 /* JFDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFDownload.m; sourceTree = "<group>"; };
 		B3B8DA9E68B38D7628D76300 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B3B8DB2ECC2AD1425B3FC5AF /* JFDownloadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFDownloadTests.m; sourceTree = "<group>"; };
+		B3B8DE7707FEF7A555CBA596 /* NSString+JFDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JFDownload.m"; sourceTree = "<group>"; };
 		B3B8DE9FE934086A7A6D7CF3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +124,10 @@
 			children = (
 				B3B8D79FF5CDE07C9DF47434 /* JFDownload.h */,
 				B3B8DA56BE488ACBA3BB88D9 /* JFDownload.m */,
+				B3B8D95F81B0449832C14124 /* NSMutableURLRequest+JFDownload.m */,
+				B3B8D2CC3D50CBB0F7C0AEF4 /* NSMutableURLRequest+JFDownload.h */,
+				B3B8D32A9C93F077B1D2D363 /* NSString+JFDownload.h */,
+				B3B8DE7707FEF7A555CBA596 /* NSString+JFDownload.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -265,6 +275,8 @@
 				B3B8D20D5AB84364CF345336 /* main.m in Sources */,
 				B3B8DE1EC288DC5FB31D0484 /* JFAppDelegate.m in Sources */,
 				B3B8DECFE09A76529866679E /* JFDownload.m in Sources */,
+				B3B8D9F159FB346D347C0796 /* NSMutableURLRequest+JFDownload.m in Sources */,
+				B3B8DB2BF77E2D4E05414AB0 /* NSString+JFDownload.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
