@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "JFDownload"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "JFDownload - a real download"
 
   s.description  = <<-DESC
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '6.0'
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source       = { :git => "https://github.com/jfwork/JFDownload.git", :tag => "v0.0.1" }
+  s.source       = { :git => "https://github.com/jfwork/JFDownload.git", :tag => "0.0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
